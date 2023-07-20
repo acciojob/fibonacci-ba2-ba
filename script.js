@@ -13,12 +13,11 @@ function fibonacci(num) {
 	}
 	
  //to store the sum
- let c = 0;
-  
+
  //iterate till the given num
  for(let i = 3; i <= num; i++){
     //sum of last two numbers
-    c = a + b; 
+   let c = a + b; 
    
     //assign the last value to first     
     a = b; 
