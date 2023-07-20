@@ -14,9 +14,9 @@ function fibonacci(num) {
 	
  //to store the sum
  let c = 0;
-  return num ? b : a;
+  
  //iterate till the given num
- for(let i = 2; i <= num; i++){
+ for(let i = 3; i <= num; i++){
     //sum of last two numbers
     c = a + b; 
    
