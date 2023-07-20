@@ -3,9 +3,18 @@ function fibonacci(num) {
  let a = 0;
  let b = 1;
 
+	if(num==1)
+	{
+		return a;
+	}
+	if(num==2)
+	{
+		return b ;
+	}
+	
  //to store the sum
  let c = 0;
- 
+  return num ? b : a;
  //iterate till the given num
  for(let i = 2; i <= num; i++){
     //sum of last two numbers
@@ -19,7 +28,7 @@ function fibonacci(num) {
  }
  
  //if the num is 0 then return a else return b;
- return num ? b : a;
+ return b;
 }
 
 module.exports = fibonacci;
